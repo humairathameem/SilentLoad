@@ -1,7 +1,8 @@
-export default function App() {
-  return (
-    <h1 className="text-5xl text-blue-500 font-bold">
-      BLUE TEST 😤
-    </h1>
-  )
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes";
+
+function App() {
+  return <RouterProvider router={router} />;
 }
+
+export default App;
