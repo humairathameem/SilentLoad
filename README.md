@@ -1,16 +1,65 @@
-# React + Vite
+# SilentLoad
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SilentLoad is a mental-load-aware productivity application designed to help users manage tasks based on realistic daily capacity rather than fixed productivity expectations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+Most task management systems focus on maximizing output. SilentLoad takes a different approach by aligning task selection with a user's mental and emotional state.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application enables users to:
+- Assess their daily mental load
+- Calculate a realistic task capacity
+- Select only manageable tasks
+- Focus on completion without overwhelm
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Objectives
+
+- Reduce cognitive overload
+- Promote sustainable productivity
+- Encourage realistic planning
+- Improve focus and task completion
+
+---
+
+## Features
+
+### Authentication
+- Basic login and signup functionality
+- User data stored locally
+
+### Onboarding
+- Selection of life areas (Work, Home, Personal, etc.)
+- Automatic generation of common tasks
+
+### Daily Workflow
+- Morning check-in to assess mental load
+- Dynamic calculation of task capacity
+- Structured task selection
+
+### Task Management
+- Categorized tasks (Must Do, Good to Do, Can Wait)
+- Capacity-based task limits
+- Deferred task handling
+
+---
+
+## Technology Stack
+
+- React (Vite)
+- Tailwind CSS
+- Local Storage
+
+---
+
+## Project Structure
+src/
+screens/
+auth/
+onboarding/
+daily/
+components/
+utils/
